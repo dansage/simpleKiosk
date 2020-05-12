@@ -1,0 +1,5 @@
+# By default, assume all files are text files
+* text eol=lf
+
+# Ensure that the images are treated as binaries
+*.png -text
