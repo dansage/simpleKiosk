@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Simple Kiosk",
+  "version": "2020.05.11.1",
+
+  "icons": {
+    "16": "icons/16.png",
+    "128": "icons/128.png"
+  },
+
+  "author": "Daniel Sage",
+  "description": "Show a single web page simply using a managed policy",
+
+  "app": {
+    "background": {
+      "scripts": [
+        "src/jquery-3.5.1.min.js",
+        "src/background.js"
+      ],
+      "persistent": false
+    }
+  },
+
+  "permissions": [
+    "power",
+    "storage",
+    "webview"
+  ],
+
+  "storage": {
+    "managed_schema": "schema.json"
+  },
+
+  "kiosk_enabled": true
+}

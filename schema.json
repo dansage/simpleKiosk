@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "pageUrl": {
+      "title": "Page URL",
+      "description": "The URL of the page to show clients",
+      "type": "string"
+    }
+  }
+}
