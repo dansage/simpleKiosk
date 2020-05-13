@@ -1,5 +1,5 @@
 # Privacy Policy
-simpleKiosk is an open-source app provided by Daniel Sage (@dansage on GitHub).
+simpleKiosk is an open-source app provided by [Daniel Sage][1].
 
 ## Information Collection and Use
 The application does not collect any user information directly, however the website you set in the configuration likely
@@ -12,6 +12,7 @@ As no information is collected by, nor required to use, the application it is no
 you of any such changes.
 
 ## Contact
-If you have any questions about this policy, please reach out by [creating an issue][1] here on GitHub.
+If you have any questions about this policy, please reach out by [creating an issue][2] here on GitHub.
 
-[1]: https://github.com/dansage/simpleKiosk/issues/new
+[1]: https://github.com/dansage
+[2]: https://github.com/dansage/simpleKiosk/issues/new
